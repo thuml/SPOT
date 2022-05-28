@@ -2,6 +2,6 @@ __pycache__
 .git
 .vscode
 models
-models.zip
+spot-models.zip
 runs
 .DS_Store

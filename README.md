@@ -31,14 +31,14 @@ python train_vae.py --env halfcheetah --dataset medium-replay
 python train_vae.py --env antmaze --dataset medium-diverse --no_normalize
 ```
 
-Run the following command to train offline RL on D4RL with pretrained vae models.
+Run the following command to train offline RL on D4RL with pretrained VAE models.
 
 ```
 python main.py --config configs/offline/halfcheetah-medium-replay.yml
 python main.py --config configs/offline/antmaze-medium-diverse.yml
 ```
 
-You can also specify the random seed and vae model:
+You can also specify the random seed and VAE model:
 
 ```
 python main.py --config configs/offline/halfcheetah-medium-replay.yml --seed <seed> --vae_model_path <vae_model.pt>
@@ -54,13 +54,13 @@ tensorboard --logdir <run_dir>
 
 ### Online Fine-tuning
 
-Run the following command to online fine-tune on AntMaze with pretrained vae models and offline models.
+Run the following command to online fine-tune on AntMaze with pretrained VAE models and offline models.
 
 ```
 python main_finetune.py --config configs/online_finetune/antmaze-medium-diverse.yml
 ```
 
-You can also specify the random seed, vae model and offline models:
+You can also specify the random seed, VAE model and offline models:
 
 ```
 python main_finetune.py --config configs/online_finetune/antmaze-medium-diverse.yml --seed <seed> --vae_model_path <vae_model.pt> --pretrain_model <pretrain_model/>
