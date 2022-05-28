@@ -1,0 +1,21 @@
+name: spot
+channels:
+- pytorch
+- defaults
+dependencies:
+- python=3.8.5
+- anaconda
+- cudatoolkit=10.
+- pytorch==1.10.0
+- tqdm==4.61.2
+- numpy
+- pip
+- pip:
+  - gym==0.18.3
+  - mujoco-py==2.0.2.13
+  - numpy==1.20.3
+  - pyyaml==5.4.1
+  - coolname==1.1.0
+  - termcolor==1.1.0
+  - tensorboard==2.7.0
+  - protobuf==3.17.3

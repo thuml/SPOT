@@ -1,0 +1,7 @@
+__pycache__
+.git
+.vscode
+models
+models.zip
+runs
+.DS_Store

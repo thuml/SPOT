@@ -1,0 +1,4 @@
+env: walker2d-medium-replay-v2
+vae_model_path: models/vae_trained_models/vae_model_walker2d_medium-replay.pt
+lambd: 0.2
+work_dir: train_offline

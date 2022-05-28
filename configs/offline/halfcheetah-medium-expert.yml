@@ -1,0 +1,4 @@
+env: halfcheetah-medium-expert-v2
+vae_model_path: models/vae_trained_models/vae_model_halfcheetah_medium-expert.pt
+lambd: 1.0
+work_dir: train_offline

@@ -1,0 +1,12 @@
+env: antmaze-umaze-v2
+seed: 1
+vae_model_path: models/vae_trained_models/vae_model_antmaze_umaze.pt
+pretrain_model: models/offline_trained_models/antmaze_umaze
+lambd: 0.25
+lambd_cool: true
+actor_lr: 0.0001
+actor_dropout: 0.0
+antmaze_no_normalize: true
+eval_episodes: 100
+eval_freq: 50000
+work_dir: train_finetune

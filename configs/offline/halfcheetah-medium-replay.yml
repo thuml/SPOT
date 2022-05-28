@@ -1,0 +1,4 @@
+env: halfcheetah-medium-replay-v2
+vae_model_path: models/vae_trained_models/vae_model_halfcheetah_medium-replay.pt
+lambd: 0.05
+work_dir: train_offline
