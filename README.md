@@ -1,6 +1,6 @@
 # Supported Policy Optimization
 
-Official implementation for [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/abs/2202.06239).
+Official implementation for NeurIPS 2022 paper [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/abs/2202.06239).
 
 ## Environment
 
@@ -71,10 +71,10 @@ python main_finetune.py --config configs/online_finetune/antmaze-medium-diverse.
 If you find this code useful for your research, please cite our paper as:
 
 ```
-@article{wu2022supported,
+@inproceedings{wu2022supported,
   title={Supported Policy Optimization for Offline Reinforcement Learning},
-  author={Wu, Jialong and Wu, Haixu and Qiu, Zihan and Wang, Jianmin and Long, Mingsheng},
-  journal={arXiv preprint arXiv:2202.06239},
+  author={Jialong Wu and Haixu Wu and Zihan Qiu and Jianmin Wang and Mingsheng Long},
+  booktitle={Advances in Neural Information Processing Systems},
   year={2022}
 }
 ```
