@@ -10,7 +10,7 @@ Official implementation for NeurIPS 2022 paper [Supported Policy Optimization fo
 conda env create -f conda_env.yml
 conda activate spot
 ```
-3. Install [D4RL](https://github.com/rail-berkeley/d4rl)
+3. Install [D4RL](https://github.com/Farama-Foundation/D4RL/tree/4aff6f8c46f62f9a57f79caa9287efefa45b6688)
 
 ## Usage
 
