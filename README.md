@@ -2,6 +2,10 @@
 
 Official implementation for NeurIPS 2022 paper [Supported Policy Optimization for Offline Reinforcement Learning](https://arxiv.org/abs/2202.06239).
 
+🚩 **News**:
+
+- June, 2023: SPOT has been included in [Clean Offline Reinforcement Learning (CORL)](https://github.com/tinkoff-ai/CORL) library as a strong baseline for Offline-to-Online RL. Thanks [Tinkoff AI](https://github.com/tinkoff-ai) and [Denis Tarasov](https://github.com/DT6A) for the implementation!
+
 ## Environment
 
 1. Install [MuJoCo version 2.0](https://www.roboti.us/download.html) at ~/.mujoco/mujoco200 and copy license key to ~/.mujoco/mjkey.txt
